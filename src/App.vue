@@ -2,7 +2,6 @@
   <Navbar />
   
   <router-view/>
-  
 
   <medios-pago/>
 
@@ -20,9 +19,9 @@
 import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 import MediosPago from '@/components/MediosPago.vue'
-// import BlogView from '@/views/BlogView.vue'
-// import AboutView from '@/views/AboutView.vue'
-// import Servicios from '@/views/Servicios.vue'
+import BlogView from '@/views/BlogView.vue'
+import AboutView from '@/views/AboutView.vue'
+import Servicios from '@/views/Servicios.vue'
 export default {
   name: 'HomeView',
   components: {
